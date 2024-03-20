@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: red; /* Fundo vermelho */
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.heart {
+    font-size: 60px;
+}
+
+.button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#sim {
+    background-color: #4CAF50; /* Verde */
+}
+
+#nao {
+    background-color: #f44336; /* Vermelho */
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: red; /* Fundo vermelho */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.music-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6f61; /* Vermelho mais claro */
+    color: rgb(7, 7, 7);
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.music-link:hover {
+    background-color: #e74c3c; /* Vermelho mais escuro */
+}
+
+
+/* Estilos CSS para animação de corações flutuantes */
+.heart-animation {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-image: url('df943343c9d0f50342fe0536521ab600.png'); /* substitua pelo caminho para sua imagem de coração */
+    background-size: cover;
+    animation: heart-float 5s infinite ease-in-out;
+}
+
+@keyframes heart-float {
+    0% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(20px, -20px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
